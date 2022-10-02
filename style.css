@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Segoe UI;
+    color: #0c0c0c;
+} 
+h2 {
+    padding: 15px 0;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px ridge black;
+    width: 160px;
+    height: 185px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3 {
+    padding: 10px 0;
+    font-size: 15px;
+    background-color: #0c0c0c;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p {
+    text-align: center;
+    background-color: antiquewhite;
+}
+ol {
+    text-align: justify;
+    background-color: antiquewhite;
+}
+ul {
+    text-align: justify;
+    background-color: antiquewhite;
+}
