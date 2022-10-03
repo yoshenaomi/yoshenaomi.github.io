@@ -4,6 +4,26 @@
     font-family: Segoe UI;
     color: #0c0c0c;
 } 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+.navbar li {
+    float: right;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: black;
+}
 h2 {
     padding: 15px 0;
     font-size: 30px;
