@@ -1,219 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="portostyle.css">
-    <title>portofolio yoshe</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="./assets/css/porto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,400;1,100&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href="portofolio.html">Portofolio Page</a></li>
-            <li><a href="index.html">About Me Page</a></li>
-        </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder text-dark" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder text-dark" aria-current="page"
+                            href="portofolio.html">Portofolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div id="homepage" class="container d-flex flex-column align-items-center justify-content-center mb-5">
+        <h1 class="title fw-bold">Portofolio</h1>
     </div>
-    <h2 align="center" title="header">Pengalaman dan Portofolio</h2>
-    <p align="center" title="about this page"
-    style="background-color: antiquewhite; 
-    margin-top: 20px; 
-    margin-bottom: 20px;" >
-    Di bawah ini, merupakan pengalaman dan juga portofolio saya selama saya
-    belajar sebagai mahasiswa teknologi rekayasa perangkat lunak. Pengalaman dan juga portofolio yang
-    ada di bawah mungkin terkesan sedikit namun seiring berjalannya waktu tentu saya akan menambahnya. Saat ini
-    saya sedang menambah pengalaman saya yakni mengikuti Studi Independen Bersertifikat dengan mitra SEAL. Besar
-    harapan saya bisa menambah pengalaman serta relasi yang baru.
-    </p>
 
-    <!-- bagian pengalaman  -->
-    <h3 align="center" id="pengalaman">Pengalaman</h3>
-    <table border="1" width="90%" align="center" 
-    style="background-color: antiquewhite; 
-    margin-left: 70px;">
-        <tr>
-            <td>UKM RISET BAHASA DAN BUDAYA POLITEKNIK NEGERI BANYUWANGI</td>
-            <td>: sebagai anggota divisi riset, ketua panitia event internal, sie acara event internal</td>
-        </tr>
-        <tr>
-            <td>SATWIKA ROBOTICS TEAM SMA NEGERI 1 GENTENG</td>
-            <td>: sebagai anggota klub robotika, perwakilan tim pada lomba Jember Line Tracer 7</td>
-        </tr>
-        <tr>
-            <td>DEWAN GALANG SMP NEGERI 1 CLURING</td>
-            <td>: sebagai anggota dewan galang, sie acara kemah besar, menjadi pengajar pramuka</td>
-        </tr>
-        <tr>
-            <td>VOLUNTEER CAMPAIGN BULANAN NASIONAL</td>
-            <td>: @uniteaid, @kitakorbanbullying, @psylution x @toucheid</td>
-        </tr>
-    </table>
+    <!-- About me Page -->
+    <div id="about-me" class="container mb-5">
+        <h3 class="text-center mb-3">Tentang Saya</h3>
+        <p class="text text-secondary fw-normal">
+            Nama saya Yoshe Naomi Vici Aflaha atau biasa dikenal dengan Yoshe. Saya merupakan mahasiswa semester
+            5
+            di Politeknik Negeri Banyuwangi program studi D4 Teknologi Rekayasa Perangkat Lunak. Selama
+            perkuliahan
+            saya belajar banyak hal salah satu tentang bahasa pemrograman. Saat ini, saya sedang mengikuti salah
+            satu
+            program Kampus Merdeka, yakni MSIB dengan mitra yang dipilih yakni SEAL. Besar harapan saya bisa
+            mendapatkan
+            banyak pengalaman dan pengetahuan baru, serta relasi yang bisa berguna dimasa yang akan datang.
+        </p>
+    </div>
 
-    <!-- bagian portofolio  -->
-    <h3 align="center" id="portofolio">Portofolio</h3>
-    <table id="t1" border="1" align="center" cellpadding="27"
-    style="background-color: antiquewhite; 
-    margin-left: 200px;">
-        <tr>
-            <td rowspan="4">
-                <img src="https://i.postimg.cc/G2WYh54n/1.png" width="250" />
-            </td>
-        </tr>
-        <tr>
-            <td>Nama</td>
-            <td>A Personal Website for Final Project</td>
-        </tr>
-        <tr>
-            <td>Detail</td>
-            <td>
-                <ul>
-                    <li>Dilengkapi animasi dua dan tiga dimensi</li>
+    <!-- Pengalaman -->
+    <div class="container">
+        <h3 class="text-center mb-3">Pengalaman</h3>
+        <table class="table table-bordered">
+            <tr>
+                <th>No</th>
+                <th>Organisasi</th>
+                <th>Posisi</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>UKM RISET BAHASA DAN BUDAYA POLITEKNIK NEGERI BANYUWANGI</td>
+                <td>
+                    <ul>
+                        <li>Sebagai anggota divisi riset</li>
+                        <li>Ketua panitia event internal, sie acara event internal</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>SATWIKA ROBOTICS TEAM SMA NEGERI 1 GENTENG</td>
+                <td>
+                    <ul>
+                        <li>Sebagai anggota klub robotika</li>
+                        <li>Perwakilan tim pada lomba Jember Line Tracer 7</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>DEWAN GALANG SMP NEGERI 1 CLURING</td>
+                <td>
+                    <ul>
+                        <li>Sebagai anggota dewan galang</li>
+                        <li>Sie acara kemah besar, menjadi pengajar pramuka</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- no, organisasi, posisi -->
+
+
+    <!-- bagian portofolio -->
+    <div class="container">
+        <h3 class="text-center mb-3"> Portofolio Tugas </h3>
+        <table class="table table-bordered">
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Detail</th>
+                <th>Hasil</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>A Personal Website for Final Project</td>
+                <td>
+                    <ul>
+                        <li>Dilengkapi animasi dua dan tiga dimensi</li>
                     <li>Website responsif, html, css, js, bootstrap</li>
                     <li>Berisi tentang personal website</li>
                     <li><a href="https://codepen.io/yoshenaomiviciaflaha/pen/ExQEGeO" style="color: rgb(0, 0, 0);">
                         view full code on codepen</a></li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-    <br>
-    <table id="t2" border="1" align="center" cellpadding="10"
-    style="background-color: antiquewhite; 
-    margin-left: 200px;">
-        <tr>
-            <td rowspan="4">
-                <img src="https://i.postimg.cc/ZnDrz56j/2.png" width="200" />
-            </td>
-        </tr>
-        <tr>
-            <td>Nama</td>
-            <td>A Simple Logo Using Full Javascript</td>
-        </tr>
-        <tr>
-            <td>Detail</td>
-            <td>
-                <ul>
-                    <li>Logo dibuat dengan menggunakan kode Javascript</li>
+                    </ul>
+                </td>
+                <td><img src="https://i.postimg.cc/G2WYh54n/1.png" alt="animasi" width="100" height="100"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>A Simple Logo Using Full Javascript</td>
+                <td>
+                    <ul>
+                        <li>Logo dibuat dengan menggunakan kode Javascript</li>
                     <li>Javascript yang digunakan menggunakan sintaks build js</li>
                     <li>Logo pribadi tentang yoshe naomi vici</li>
                     <li><a href="https://codepen.io/yoshenaomiviciaflaha/pen/vYppVvy" style="color: rgb(0, 0, 0);">
                         view full code on codepen</a></li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-    <br>
-    <table id="t3" border="1" align="center" cellpadding="25"
-    style="background-color: antiquewhite; 
-    margin-left: 200px;">
-        <tr>
-            <td rowspan="4">
-                <img src="https://i.postimg.cc/PxMqwVxw/3.png" width="200" />
-            </td>
-        </tr>
-        <tr>
-            <td>Nama</td>
-            <td>A Simple Tribute Page about Idol</td>
-        </tr>
-        <tr>
-            <td>Detail</td>
-            <td>
-                <ul>
-                    <li>Tribute page tentang idol yang memotivasi</li>
-                    <li>Full menggunakan css sederhana</li>
-                    <li>Berisi tentang informasi yang berkaitan</li>
-                    <li><a href="https://codepen.io/yoshenaomiviciaflaha/pen/XWjPxzG" style="color: rgb(0, 0, 0);">
-                        view full code on codepen</a></li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-    <table id="t4" border="1" align="center" cellpadding="2"
-    style="background-color: antiquewhite; 
-    margin-left: 200px;">
-        <tr>
-            <td rowspan="4">
-                <img src="https://i.postimg.cc/HncshYzQ/4.png" width="200" />
-            </td>
-        </tr>
-        <tr>
-            <td>Nama</td>
-            <td>A Simple Character based on Lecture's Challange</td>
-        </tr>
-        <br>
-        <tr>
-            <td>Detail</td>
-            <td>
-                <ul>
-                    <li>Karakter dibuat berdasarkan tantangan dari dosen</li>
-                    <li>Full using Javascript</li>
-                    <li>Element yang digunakan beberapa menggunakan sintaks build js</li>
-                    <li><a href="https://codepen.io/yoshenaomiviciaflaha/pen/yLpqavw" style="color: rgb(0, 0, 0);"">
-                        view full code on codepen</a></li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+                    </ul>
+                </td>
+                <td><img src="https://i.postimg.cc/ZnDrz56j/2.png" alt="logo" width="100" height="100"></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>A Simple Tribute Page about Idol</td>
+                <td>
+                    <ul>
+                        <li>Tribute page tentang idol yang memotivasi</li>
+                        <li>Full menggunakan css sederhana</li>
+                        <li>Berisi tentang informasi yang berkaitan</li>
+                        <li><a href="https://codepen.io/yoshenaomiviciaflaha/pen/XWjPxzG" style="color: rgb(0, 0, 0);">
+                            view full code on codepen</a></li>
+                    </ul>
+                </td>
+                <td><img src="https://i.postimg.cc/PxMqwVxw/3.png" alt="web" width="100" height="100"></td>
+            </tr>
+        </table>
+    </div>
+    <!-- No, Nama tugas, Detail, Gambar -->
 
-    <!-- bagian kontak saya -->
-    <h3 align="center" id="pengalaman">Kontak Saya</h3>
-    <table border="0" align="center" cellpadding="10"
-    style="background-color: antiquewhite; 
-    margin-left: 400px;
-    width: 600px;">
-        <tr>
-            <td>Nama Lengkap</td>
-            <td>:</td>
-            <td><input type="text" placeholder="masukkan nama anda"></td>
-        </tr>
-        <tr>
-            <td>Tanggal Isi</td>
-            <td>:</td>
-            <td><input type="datetime" placeholder="masukkan tanggal dan waktu isi"></td>
-        </tr>
-        <tr>
-            <td>Jenis Kelamin</td>
-            <td>:</td>
-            <td>
-                <select>
-                    <option>pilih jenis kelamin</option>
-                    <option>laki-laki</i></option>
-                    <option>perempuan</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>Kota</td>
-            <td>:</td>
-            <td>
-                <select>
-                    <option>pilih kota asal</option>
-                    <option>Surabaya</option>
-                    <option>Bandung</option>
-                    <option>Jakarta</option>
-                    <option>Yang Lainnya</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>Kritik dan Saran</td>
-            <td>:</td>
-            <td>
-                <textarea cols="22" rows="3"></textarea>
-            </td>
-        </tr>
-        <tr>
-            <td>No Telp</td>
-            <td>:</td>
-            <td><input type="number" placeholder="masukkan nomor telepon anda"></td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>
-                <input type="submit" name="submit" value="kirim" />
-                <input type="reset" name="reset" value="batal" />
-            </td>
-        </tr>
-    </table>
+    <!-- contact me page -->
+    <div id="contac-me" class="container mb-5">
+        <h3 class="text-center mb-3"> Contact Me</h3>
+        <div class="row">
+            <form class="col-6 mx-auto">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nama Anda</label>
+                    <input type="nama" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Masukkan Nama Anda">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Kritik dan Saran</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-3 w-100">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- end contack me page -->
+
+    <!-- Footer -->
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Yoshe, Banyuwangi</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://github.com/yoshenaomi/web-basic-seal"><i
+                            class="bi bi-github"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://instagram.com/yoshenaomi_?igshid=YmMyMTA2M2Y="><i
+                            class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://wa.me/62811366354"><i
+                            class="bi bi-whatsapp"></i></a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
+
 </html>

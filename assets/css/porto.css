@@ -1,0 +1,36 @@
+.title {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#homepage {
+    height: 20vh;
+}
+
+body {
+    background-color: #dedfda;
+}
+
+h1 {
+    color: #013832;
+    text-align: center;
+}
+
+h2 {
+    color: #013832;
+    text-align: justify;
+}
+
+p {
+    color: #387A5c;
+    font-size: 20px;
+    text-align: justify;
+}
+
+table,
+th,
+td {
+    color: #013832;
+    border: 1px solid;
+    text-align: justify;
+    margin: auto;
+}
